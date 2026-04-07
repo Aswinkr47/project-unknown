@@ -7,7 +7,7 @@ function checkLogin()
     let pass =document.get("password").value;
 if (user == correctusername && pass == correctpassword)
 {
-	window.location.href="webtest.html";
+	window.location.href="home.html";
 }
 else {
 	document.getElementById("error")innerText="invalid username or password!";
