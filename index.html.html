@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style lang="stylesheet">h1 {
+font-family:Times New Roman,serif;
+color:blue;font-size:40px;
+
+}
+p
+{ 
+ color:red;
+ font-size:50px;
+ }
+marquee
+{
+color:cyan;
+}
+body{
+ font-family:arial sans-serif;
+ background-color:black;
+ background : linear-gradient(135deg,white)
+ }
+.center
+{
+color:black;
+width:80%;
+max-width:1200px;
+margin:auto;
+}
+input,textarea{
+width:50%;
+padding:10px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:15px;
+
+}
+.login-box{
+width:320px;
+padding:30px;
+background:white;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,2);
+}
+button
+{
+width:20%;
+padding:10px;
+margin:8px 0;
+border:1px solid#ccc;
+border-radius:15px;
+}
+.login-box button:hover{
+border-color:green;
+color:green;
+}
+#clear:hover{
+border-color:red;
+color:red;
+}
+
+	</style>
+	
+	<title>your details might be here</title></head>
+<body>
+	<center>
+		<div class="login-box">
+<h1>LOGIN BUD🥀</h1>
+
+<marquee >ENTER THE CORRECT PASS AND USERNAME</marquee>
+
+<form onsubmit=" return checkLogin( )">
+	
+       enter user name : <input type="text " id="username"  size=30>
+<BR><BR>
+      enter password : <input type="password"  id="password" size=30>
+      
+<BR><BR>
+      
+      <button type="reset" id="clear">CLEAR</button>
+      
+      <button type="submit" >LOGIN</button>
+      </form>
+      <p id="error" ></p>
+
+</div>
+
+
+</center>
+<script  src="web.js"></script>
+</body>
+
+</html>
