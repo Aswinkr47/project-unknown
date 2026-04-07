@@ -10,6 +10,6 @@ if (user == correctusername && pass == correctpassword)
 	window.location.href= "home.html";
 }
 else {
-	document.getElementById("error")innerText="invalid username or password!";
+	document.getElementById("error").innerText="invalid username or password!";
 }
 }
