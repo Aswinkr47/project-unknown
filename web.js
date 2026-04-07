@@ -1,7 +1,7 @@
 function checkLogin()
 {
 	const correctusername= "cpboys";
-	const correctpassword="blublublu";
+	const correctpassword="123456";
 	
 	let user =document.get("username").value;
     let pass =document.get("password").value;
